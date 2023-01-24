@@ -18,11 +18,11 @@ output: html_document
 
 
 
-### **Data **
+### **Data**
 
 For each variable the the sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). As required in the project, the average of each variable for each activity and each subject is reported in the final database (database1). 
 
-### **Clean up pipeline **
+### **Clean up pipeline**
 
 Once the data were imported on R and "train" and "test" and the column names were imported from the "feature" database, the data were merged. 
 Only the columns containing mean or standard deviation were selected as required. 
