@@ -8,9 +8,6 @@ output:
   html_document: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 library(dplyr)
 library (tidyr)
 setwd("Coursera/03 Getting and Cleaning Data/Final Project/UCI HAR Dataset")
