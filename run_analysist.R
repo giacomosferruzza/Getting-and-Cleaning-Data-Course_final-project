@@ -60,4 +60,4 @@ database1 <- spread(database1,key = "variab",value = "value")  #put back the fea
 colnames (database1) [c(3,4,5)] <- c("domain", "index", "3dsignal") #properly name the columns
 
 
-write.table(database1, "database1.txt")
+write.table(database1, "database1.txt",  row.name=FALSE)
