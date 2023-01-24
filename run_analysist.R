@@ -1,6 +1,5 @@
 library(dplyr)
 library (tidyr)
-setwd("Coursera/03 Getting and Cleaning Data/Final Project/UCI HAR Dataset")
 
 #Merges the training and the test sets to create one data set.
 
